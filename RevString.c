@@ -17,13 +17,17 @@ int main()
         printf("Mahdie what do you forsee for us?\n");
         scanf("%s",e);
         
-        for(i=0;i<100;i++)
-        {
+        
+        
         if(strcmp(e,f)==0)
         {
+            for(i=0;i<100;i++)
+            {
             printf("Lisan_al_gaib \t");
+            }
         }
-        }
+
+        
                
     }
     else
