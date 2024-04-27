@@ -5,7 +5,7 @@ int main()
 {
     char a[100],b[100],c[100],e[100];
     char d[]="paul";
-    char f[]="paradise";
+    char f[]="Green_Paradise";
     int l,i,j;
 
     printf("Enter your name : ");
@@ -17,13 +17,14 @@ int main()
         printf("Mahdie what do you forsee for us?\n");
         scanf("%s",e);
         
+        for(i=0;i<100;i++)
+        {
         if(strcmp(e,f)==0)
         {
-            for(i=0;i>1;i++)
-            {
-            printf("Lisan al gaib");
-            }
-        }       
+            printf("Lisan_al_gaib \t");
+        }
+        }
+               
     }
     else
     {
