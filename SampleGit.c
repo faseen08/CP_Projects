@@ -3,4 +3,5 @@
 int main()
 {
     printf("Enter a number");
+    printf("Mone");
 }
