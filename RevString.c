@@ -5,17 +5,17 @@ int main()
 {
     char a[100],b[100],c[100],e[100];
     char d[]="paul";
-    char f[]="Green_Paradise";
+    char f[]="Green Paradise";
     int l,i,j;
 
     printf("Enter your name : ");
-    scanf("%s",c);
+    scanf("%[^\n]%*c",c);
 
     if(strcmp(c,d)==0)
     {
         printf("\nLisan Al Gaib \n");
         printf("Mahdie what do you forsee for us?\n");
-        scanf("%s",e);
+        scanf("%[^\n]%*c",e);
         
         
         
