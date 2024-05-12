@@ -5,7 +5,7 @@ int main()
 {
     char hello[100];
 
-    printf("Enter your name mone: ");
+    printf("Enter your name : ");
     gets(hello);
 
     printf("Entered name : ");
